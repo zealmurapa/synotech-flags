@@ -1,6 +1,6 @@
 {
   "name": "@synotech/flags",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "circular country flags, used by synotech",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
