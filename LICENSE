@@ -1,20 +1,93 @@
-MIT License
+# PROPRIETARY SOFTWARE LICENSE AGREEMENT
 
-Copyright (c) 2023 Lukasz Kurant
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Copyright © [2020] SYNOPTIC TECHNOLOGIES (SYNOTECH). All Rights Reserved.**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 1. GRANT OF LICENSE
+
+This software and associated documentation files (the "Software") are the proprietary and confidential property of SYNOPTIC TECHNOLOGIES ("Company"). Subject to the terms and conditions of this License Agreement, Company grants you a limited, non-exclusive, non-transferable, revocable license to use the Software solely for internal business purposes within your organization.
+
+## 2. RESTRICTIONS
+
+You are expressly prohibited from:
+
+- **Copying, reproducing, or duplicating** the Software in whole or in part, except as expressly permitted herein
+- **Distributing, selling, licensing, or transferring** the Software to any third party
+- **Modifying, adapting, altering, or creating derivative works** based on the Software
+- **Reverse engineering, decompiling, or disassembling** the Software
+- **Removing or altering** any proprietary notices, labels, or marks on the Software
+- **Using the Software** for any commercial purpose outside of your internal operations
+- **Sharing access credentials** or otherwise enabling unauthorized access to the Software
+
+## 3. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+The Software contains proprietary and confidential information of Company and its licensors. Company and its licensors retain all right, title, and interest in and to the Software, including all intellectual property rights therein. This License does not grant you any ownership rights in the Software.
+
+## 4. CONFIDENTIALITY
+
+You acknowledge that the Software contains trade secrets and confidential information of Company. You agree to:
+
+- Maintain the confidentiality of the Software
+- Not disclose any portion of the Software to third parties
+- Use the same degree of care to protect the Software as you use to protect your own confidential information, but no less than reasonable care
+
+## 5. TERMINATION
+
+This License is effective until terminated. Company may terminate this License immediately upon notice if you breach any term of this Agreement. Upon termination, you must immediately cease all use of the Software and destroy all copies in your possession or control.
+
+## 6. ENFORCEMENT AND REMEDIES
+
+You acknowledge that any breach of this License Agreement will cause irreparable harm to Company for which monetary damages would be inadequate. Therefore, Company shall be entitled to seek injunctive relief and other equitable remedies, in addition to all other remedies available at law or in equity.
+
+**Any unauthorized use, copying, distribution, or reverse engineering of the Software will result in immediate legal action and pursuit of all available remedies, including but not limited to:**
+- Injunctive relief
+- Monetary damages
+- Attorney's fees and costs
+- Statutory damages where applicable
+
+## 7. WARRANTY DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. COMPANY DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+## 8. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL COMPANY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR IN CONNECTION WITH THIS LICENSE AGREEMENT OR THE USE OF THE SOFTWARE.
+
+## 9. GOVERNING LAW
+
+This License Agreement shall be governed by and construed in accordance with the laws of [STATE/JURISDICTION], without regard to its conflict of laws principles. Any disputes arising under this Agreement shall be subject to the exclusive jurisdiction of the courts of [STATE/JURISDICTION].
+
+## 12. OFFICIAL DOMAINS
+
+The official domains of SYNOPTIC TECHNOLOGIES (SYNOTECH) are exclusively:
+- synotech.co.uk
+- synotech.us
+- synotech.ai
+- synotech.co.za
+- synotech.cloud
+- synotech.dev
+
+Any software, documentation, or communications not originating from these official domains should be considered unauthorized and potentially fraudulent. Only software and licenses distributed through these official channels are legitimate and covered under this License Agreement.
+
+## 13. ENTIRE AGREEMENT
+
+This License Agreement constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior or contemporaneous agreements, whether written or oral.
+
+## 11. SEVERABILITY
+
+If any provision of this License Agreement is held to be unenforceable or invalid, such provision shall be struck and the remainder of this Agreement shall remain in full force and effect.
+
+---
+
+**NOTICE:** This software is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this software, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the full extent of the law.
+
+**For questions regarding this license, contact:**
+SYNOPTIC TECHNOLOGIES (SYNOTECH)
+contact@synotech.cloud
+
+**Official Company Domains:** synotech.co.uk | synotech.us | synotech.ai | synotech.co.za | synotech.cloud | synotech.dev
+
+---
+
+*Last Updated: [DATE]*
