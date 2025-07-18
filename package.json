@@ -29,6 +29,7 @@
     "build:rn": "tsup --config tsup.config.ts --entry.react-native src/index.tsx --outDir lib/react-native",
     "build:react": "tsup --config tsup.config.ts --entry.react src/index.react.tsx --outDir lib/react",
     "release": "release-it",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,md}\"",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn install"
   },
