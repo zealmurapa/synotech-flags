@@ -1,6 +1,6 @@
 {
   "name": "@synotech/flags",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "circular country flags, compatible with React Native and React.js",
   "main": "dist/react/index.js",
   "module": "dist/react/index.js",
