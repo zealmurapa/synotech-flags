@@ -1,10 +1,18 @@
 # @synotech/flags
 
-A comprehensive React Native library providing **500+ circular SVG flags** including country flags, language flags, and fictional flags. Built with `react-native-svg` for crisp, scalable vector graphics that look perfect on any device.
+A comprehensive **cross-platform** library providing **500+ circular SVG flags** for both **React Native** and **React.js** applications. Features country flags, language flags, and fictional flags with crisp, scalable vector graphics that look perfect on any device.
 
 [![NPM Version](https://img.shields.io/npm/v/@synotech/flags)](https://www.npmjs.com/package/@synotech/flags)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React Native](https://img.shields.io/badge/React%20Native-0.60+-blue.svg)](https://reactnative.dev/)
+[![React.js](https://img.shields.io/badge/React.js-16.8+-61DAFB.svg)](https://reactjs.org/)
+
+## 🚀 Cross-Platform Support
+
+This library now supports both platforms:
+- **React Native**: Uses `react-native-svg` for mobile apps
+- **React.js**: Uses native SVG elements for web applications
+- **Automatic Platform Detection**: The library automatically selects the correct implementation
 
 ## 🌍 What's Included
 
@@ -13,12 +21,15 @@ A comprehensive React Native library providing **500+ circular SVG flags** inclu
 - **🏴‍☠️ Fictional Flags**: Fun flags for pirates, science fiction, and fantasy themes
 - **🎯 Optimized Performance**: Built-in caching and memoization for smooth rendering
 - **📱 React Native Ready**: Designed specifically for mobile applications
+- **🌐 Web Compatible**: Full support for React.js web applications
 
 ## 📋 Prerequisites
 
+### For React Native
+
 ⚠️ **Required Peer Dependencies**
 
-This library requires `react-native-svg` to be installed and configured in your project:
+This library requires `react-native-svg` to be installed and configured in your React Native project:
 
 ```bash
 npm install react-native-svg
@@ -32,6 +43,10 @@ cd ios && pod install
 # https://github.com/software-mansion/react-native-svg
 ```
 
+### For React.js
+
+No additional dependencies required! The library uses native SVG elements for web applications.
+
 ## 🚀 Installation
 
 ```bash
@@ -42,9 +57,9 @@ yarn add @synotech/flags
 
 ## 📖 Basic Usage
 
-### Simple Flag Component
+The library automatically detects your platform and uses the appropriate implementation.
 
-The easiest way to display a flag using the main `Flag` component:
+### React Native Usage
 
 ```tsx
 import React from 'react';
@@ -65,6 +80,40 @@ const MyComponent = () => {
     </View>
   );
 };
+```
+
+### React.js Usage
+
+```tsx
+import React from 'react';
+import { Flag } from '@synotech/flags';
+
+const MyComponent = () => {
+  return (
+    <div>
+      {/* Display US flag */}
+      <Flag code="us" width={40} height={40} />
+      
+      {/* Display UK flag */}
+      <Flag code="gb" width={32} height={32} />
+      
+      {/* Using size prop (applies to both width and height) */}
+      <Flag code="ca" size={48} />
+    </div>
+  );
+};
+```
+
+### Explicit Platform Import
+
+If you need to explicitly import for a specific platform:
+
+```tsx
+// For React Native
+import { Flag } from '@synotech/flags/react-native';
+
+// For React.js
+import { Flag } from '@synotech/flags';
 ```
 
 ### Direct Component Import
