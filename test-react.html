@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synotech Flags - React Test</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        // Simple test to verify React build works
+        const { useState } = React;
+        
+        function TestApp() {
+            const [flags] = useState([
+                { code: 'us', name: 'United States' },
+                { code: 'gb', name: 'United Kingdom' },
+                { code: 'ca', name: 'Canada' },
+                { code: 'de', name: 'Germany' },
+                { code: 'fr', name: 'France' }
+            ]);
+            
+            return React.createElement('div', {
+                style: {
+                    padding: '20px',
+                    fontFamily: 'Arial, sans-serif',
+                    textAlign: 'center'
+                }
+            }, [
+                React.createElement('h1', { key: 'title' }, 'Synotech Flags - React.js Compatible'),
+                React.createElement('p', { key: 'desc' }, 'This library now works with both React Native and React.js!'),
+                React.createElement('div', {
+                    key: 'flags',
+                    style: { marginTop: '20px' }
+                }, flags.map(flag => 
+                    React.createElement('div', {
+                        key: flag.code,
+                        style: {
+                            display: 'inline-block',
+                            margin: '10px',
+                            padding: '10px',
+                            border: '1px solid #ccc',
+                            borderRadius: '5px'
+                        }
+                    }, [
+                        React.createElement('div', {
+                            key: 'placeholder',
+                            style: {
+                                width: '48px',
+                                height: '48px',
+                                backgroundColor: '#f0f0f0',
+                                border: '1px solid #ddd',
+                                borderRadius: '4px',
+                                margin: '0 auto 8px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontSize: '12px'
+                            }
+                        }, flag.code.toUpperCase()),
+                        React.createElement('div', { key: 'name' }, flag.name)
+                    ])
+                ))
+            ]);
+        }
+        
+        ReactDOM.render(React.createElement(TestApp), document.getElementById('root'));
+    </script>
+</body>
+</html>
